@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: opx;
+}
+body{
+    background-color:#FFFEC1;
+    text-align: center;
+    font-weight: bold;
+}
+.head{
+  background-color: rgb(255, 96, 255);
+}
+pre{
+  border: 2px solid red;
+  background-color: #a5ffaa;
+  width: 100%;
+}
+td,tr,th{
+    border: 1px rgb(132, 0, 255) solid;
+    padding: 0px;
+    margin: 0px;
+}
+select{
+    background-color: #fffd87;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+button{
+    background-color: #fffb00;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: x-large;
+    height:30px;
+    width: 50%;
+    float: left;
+
+}
+button:hover{
+   background-color: peru;
+}
+
+/* Base styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS for table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid #612d2d;
+}
+
+th, td {
+  padding:4px;
+  text-align: center;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+/* CSS for select and input styling */
+select, input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+/* CSS for the calculate button */
+#calculateButton {
+    font-size:1.5em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+#calculateButton:hover {
+  background-color: #057809;
+}
+
+/* Additional styling for the optional subject dropdown */
+#optional {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Responsive styles */
+@media (max-width: 530px) {
+  /* Adjust padding and font size for smaller screens */
+  th, td {
+    padding: 10px;
+  }
+  #calculateButton {
+    padding: 20px 20px;
+    font-size: 16px;
+  }
+}
+
+  
